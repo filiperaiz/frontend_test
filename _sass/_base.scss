@@ -1,0 +1,61 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif !important;
+  background-color: #fdfdfd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--black);
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+a {
+  text-decoration: none;
+}
+
+b {
+  font-weight: 600;
+}
+
+.scrollTop {
+  position: fixed;
+  background-color: var(--primary-light);
+  padding: 5px;
+  border-radius: 4px;
+  right: 5%;
+  cursor: pointer;
+  bottom: 10px;
+  opacity: 0;
+  @include transition(0.2s ease);
+
+  .fa {
+    font-size: 70px;
+    color: var(--white);
+    line-height: 40px;
+  }
+}
+
+@include mobile {
+  .mb {
+    margin-bottom: 10px;
+  }
+
+  .hide-mobile {
+    display: none;
+  }
+}

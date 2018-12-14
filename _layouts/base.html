@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="initial-scale=1, shrink-to-fit=no, width=device-width"
+      name="viewport"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>
+      {% if page.title %}{{ page.title | escape }}{% else %}{{
+        site.title | escape
+      }}{% endif %}
+    </title>
+
+    <meta
+      name="description"
+      content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
+      rel="stylesheet"
+    />
+
+    <script src="https://use.fontawesome.com/62bb76db53.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <link
+      rel="canonical"
+      href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
+    />
+  </head>
+  <body class="">
+    <header class="header">
+      {% include header/headerTop.html %} {% include header/headerCenter.html %}
+      {% include header/headerBottom.html %}
+    </header>
+
+    <main>{{ content }}</main>
+
+    <footer class="footer">
+      {% include footer/footerTop.html %} {% include footer/footerCenter.html %}
+      {% include footer/footerBottom.html %}
+    </footer>
+
+    <div class="scrollTop">
+      <i class="fa fa-angle-up" aria-hidden="true"></i>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

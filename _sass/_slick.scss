@@ -1,0 +1,48 @@
+.slick-dotted.slick-slider {
+  margin-bottom: 0;
+}
+
+.slick-prev {
+  z-index: 1;
+  left: 25px;
+  &:before {
+    content: '\f104';
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 50px;
+    color: var(--dark-dark);
+  }
+}
+
+.slick-next {
+  z-index: 1;
+  right: 25px;
+  &:before {
+    content: '\f105';
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 50px;
+    color: var(--dark-dark);
+  }
+}
+
+.slick-dots {
+  bottom: 15px;
+  li {
+    margin: 0 2px;
+
+    button {
+      &:before {
+        font-size: 15px;
+        line-height: 18px;
+        width: 15px;
+        height: 15px;
+        border: 1px solid var(--white);
+        border-radius: 100px;
+      }
+    }
+
+    &.slick-active button:before {
+      color: var(--white);
+      border: 1px solid var(--primary);
+    }
+  }
+}
