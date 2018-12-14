@@ -9,7 +9,7 @@
 
 ## Version compiled
 
-- The folder [_site] contains the compiled version this project;
+- The folder [_site](https://github.com/filiperaiz/frontend_test/tree/master/_site) contains the compiled version this project;
 
 ## Extra
 
