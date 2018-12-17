@@ -1,11 +1,11 @@
 {
   "name": "pwa teste",
-  "short_name": "PwaTest",
+  "short_name": "pwaTest",
   "theme_color": "#2196f3",
   "background_color": "#2196f3",
   "display": "standalone",
   "Scope": "/",
-  "start_url": "https://ecstatic-hopper-4ee256.netlify.com/",
+  "start_url": "/index.html",
   "icons": [
     {
       "src": "img/icons/icon-72x72.png",
@@ -47,6 +47,5 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ],
-  "splash_pages": null
+  ]
 }
