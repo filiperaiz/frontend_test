@@ -5,7 +5,7 @@
   "background_color": "#2196f3",
   "display": "standalone",
   "Scope": "/",
-  "start_url": "/https://ecstatic-hopper-4ee256.netlify.com/",
+  "start_url": "https://ecstatic-hopper-4ee256.netlify.com/",
   "icons": [
     {
       "src": "img/icons/icon-72x72.png",
