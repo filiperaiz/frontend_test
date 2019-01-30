@@ -1,0 +1,19 @@
+{
+  "name": "raiz",
+  "version": "1.0.0",
+  "description": "teste npm",
+  "main": "main.js",
+  "scripts": {
+    "test": "raiz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filiperaiz/frontend_test.git"
+  },
+  "author": "raiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filiperaiz/frontend_test/issues"
+  },
+  "homepage": "https://github.com/filiperaiz/frontend_test#readme"
+}
